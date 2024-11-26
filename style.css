@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header {
+    height: 100px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+
+
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    background-color: blue;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.row {
+    height: 50%;
+    background-color: aquamarine;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.card {
+    width: 33.3333333%;
+    height: 100%;
+    background-color: brown;
+}
+
+
+
+
+
+/* footer*/
+footer {
+    height: 100px;
+    background-color: black;
+    margin-top: 50px;
+}
