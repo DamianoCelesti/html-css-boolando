@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,11 +7,37 @@
 /*header*/
 header {
     height: 100px;
-    background-color: orange;
+    background-color: rgba(255, 115, 0, 0.829);
     margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
 
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#logo img {
+    width: 150px;
+}
+
+.nav-gender a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /* main */
 main {
@@ -24,7 +50,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
 .row {
@@ -40,18 +66,43 @@ main {
 .card img {
     max-width: 100%;
 }
+
 .card {
     width: 32%;
     height: 100%;
     margin-bottom: 40px;
-    
+    /* display: flex; */
+
 }
 
 .foto {
-    width: 100%; 
+    width: 100%;
     object-fit: cover;
-    object-position: center; 
+    object-position: center;
 }
+
+.discount {
+    text-decoration: line-through;
+    color: rgb(65, 65, 65);
+}
+
+.price-color {
+    color: red;
+}
+
+.foto-hover {
+    display: none;
+}
+
+.card:hover .foto {
+    display: none;
+}
+.card:hover .foto-hover {
+    display: inline-block;
+}
+
+
+
 
 /* footer*/
 footer {
