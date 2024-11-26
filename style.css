@@ -8,7 +8,7 @@
 header {
     height: 100px;
     background-color: orange;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 
@@ -21,8 +21,6 @@ main {
 
 .container {
     width: 80%;
-    background-color: blue;
-    height: 900px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,25 +29,32 @@ main {
 
 .row {
     height: 50%;
-    background-color: aquamarine;
     width: 100%;
     flex-direction: row;
     display: flex;
+    justify-content: space-between;
 }
 
+
+
+.card img {
+    max-width: 100%;
+}
 .card {
-    width: 33.3333333%;
+    width: 32%;
     height: 100%;
-    background-color: brown;
+    margin-bottom: 40px;
+    
 }
 
-
-
-
+.foto {
+    width: 100%; 
+    object-fit: cover;
+    object-position: center; 
+}
 
 /* footer*/
 footer {
     height: 100px;
     background-color: black;
-    margin-top: 50px;
 }
