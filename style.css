@@ -12,6 +12,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .container-header {
@@ -19,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 80%;
+    
 }
 
 #logo {
@@ -70,16 +74,11 @@ main {
 .card {
     width: 32%;
     height: 100%;
-    margin-bottom: 40px;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
 
 }
 
-.foto {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
 
 
 /* cuore*/
@@ -88,7 +87,7 @@ main {
     width: 40px;
     position: relative;
     bottom: 90%;
-    left: 94%;
+    left: 0;
     background-color: white;
     padding: 11px;
     font-size: larger;
@@ -112,11 +111,11 @@ main {
     display: none;
 }
 
-.card:hover .foto {
+.foto-coperta:hover .foto {
     display: none;
 }
 
-.card:hover .foto-hover {
+.foto-coperta:hover .foto-hover {
     display: inline-block;
 }
 
@@ -140,7 +139,6 @@ main {
 .sostenibilita {
     background-color: green;
 }
-
 
 /* footer*/
 footer {
