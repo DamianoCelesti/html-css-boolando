@@ -81,6 +81,22 @@ main {
     object-position: center;
 }
 
+
+/* cuore*/
+
+.cuore {
+    width: 40px;
+    position: relative;
+    bottom: 90%;
+    left: 94%;
+    background-color: white;
+    padding: 11px;
+    font-size: larger;
+}
+
+
+/* testo*/
+
 .discount {
     text-decoration: line-through;
     color: rgb(65, 65, 65);
@@ -90,6 +106,8 @@ main {
     color: red;
 }
 
+/* hover */
+
 .foto-hover {
     display: none;
 }
@@ -97,11 +115,31 @@ main {
 .card:hover .foto {
     display: none;
 }
+
 .card:hover .foto-hover {
     display: inline-block;
 }
 
+/* rettangoli */
 
+.box {
+    
+    right: 36px;
+    bottom: 100px; 
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.red {
+    background-color: red;
+}   
+
+.sostenibilita {
+    background-color: green;
+}
 
 
 /* footer*/
